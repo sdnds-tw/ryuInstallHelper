@@ -1,6 +1,9 @@
 #!/bin/sh
 # This is a quick install script for ryu and dependencies.
 
+# Check Permission
+test $EUID -ne 0 && echo "This script must be run as root" && exit 0
+
 # On Ubuntu 12.04 LTS
 # Do NOT use 512MB VM to compile ryu source code since there is not enough memory to compile source code 
 # Use SI standard, if you need more info, please try "man units"
