@@ -17,3 +17,4 @@ Contributor
 ===========
 
 - [John-Lin](https://github.com/John-Lin)
+- [pichuang](https://github.com/pichuang)
