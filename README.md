@@ -7,7 +7,7 @@ To make installation easiest. This helper script which should get all
 dependencies and download, build, and install Ryu. 
 
 ```
-$ wget https://raw.githubusercontent.com/John-Lin/ryuInstallHelper/master/ryuInstallHelper.sh
+$ wget https://raw.githubusercontent.com/sdnds-tw/ryuInstallHelper/master/ryuInstallHelper.sh
 $ sudo bash ryuInstallHelper.sh
 ```
 
