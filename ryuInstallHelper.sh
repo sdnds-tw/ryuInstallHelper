@@ -30,7 +30,7 @@ echo "#                         DOWNLOADING RYU FROM GIT                        
 echo "##############################################################################"
 
 cd $HOME
-git clone https://github.com/osrg/ryu.git
+git clone --depth 1 git://github.com/osrg/ryu.git
 
 echo "##############################################################################"
 echo "#                              BUILDING RYU                                  #"
