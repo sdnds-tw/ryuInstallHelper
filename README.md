@@ -1,5 +1,6 @@
 RyuInstallHelper
 ================
+There are two ways to install ryu without any painful 
 
 #### Option 1: Get the latest official version source build and install it.
 
@@ -14,13 +15,13 @@ dependencies and download, build, and install Ryu.
 $ wget https://raw.githubusercontent.com/sdnds-tw/ryuInstallHelper/master/ryuInstallHelper.sh
 $ bash ryuInstallHelper.sh
 ```
-That's it!!
+That's it !!
 
 Note: This script has only been tested on the most recent stable version of Ubuntu.
 
 -----
 
-#### Option 2:Using Python Virtualenv
+#### Option 2: Using Python Virtualenv
 
 virtualenv is a tool to create isolated Python environments.
 
@@ -55,6 +56,14 @@ Your shell prompt will now display the currently active virtualenv:
 Once you have properly setup virtualenv and install ryu, you can start ryu using following command:
 
 `(ryu_venv)$ ryu-manager`
+
+You may need to clone official source code for running sample application.
+
+`$ git clone https://github.com/osrg/ryu.git`
+
+Running a sample application
+
+`(ryu_venv)$ ryu-manager ./ryu/ryu/ryu/app/simple_switch_13.py`
 
 
 ##### 5. Deactivate virtualenv
