@@ -20,7 +20,7 @@ echo "##########################################################################
 apt-get install git python-pip build-essential python-dev libxml2-dev libxslt1-dev python-paramiko python-webob python-routes python-eventlet python-lxml -y
 
 # Upgrade pip
-pip install -U pip 
+pip install -U pip six 
 
 # install setuptools
 wget https://bootstrap.pypa.io/ez_setup.py -O - | python
