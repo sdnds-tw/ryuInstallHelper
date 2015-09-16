@@ -20,7 +20,7 @@ echo "##########################################################################
 sudo apt-get install git python-pip build-essential python-dev libxml2-dev libxslt1-dev python-paramiko python-webob python-routes python-eventlet -y
 
 # Upgrade pip
-sudo pip install -U pip six
+sudo pip install -U pip six oslo.config eventlet
 
 # install setuptools
 wget https://bootstrap.pypa.io/ez_setup.py -O - | sudo python
