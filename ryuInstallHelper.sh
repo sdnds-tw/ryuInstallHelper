@@ -17,10 +17,10 @@ sudo apt-get update
 echo "##############################################################################"
 echo "#                          RYU DEPENDENCY CHECK                              #"
 echo "##############################################################################"
-sudo apt-get install git python-pip build-essential python-dev libxml2-dev libxslt1-dev python-paramiko python-webob python-routes python-eventlet -y
+sudo apt-get install git python-pip build-essential python-dev libxml2-dev libxslt1-dev python-paramiko python-webob python-routes -y
 
 # Upgrade pip
-sudo pip install -U pip six oslo.config eventlet
+sudo pip install -U pip six oslo.config eventlet msgpack-python
 
 # install setuptools
 wget https://bootstrap.pypa.io/ez_setup.py -O - | sudo python
@@ -39,5 +39,6 @@ echo "##########################################################################
 cd ryu; sudo python ./setup.py install
 
 echo "##############################################################################"
+echo "#                         Try to use ./start_ryu.sh                          #"
 echo "#                                    DONE                                    #"
 echo "##############################################################################"
