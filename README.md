@@ -12,9 +12,9 @@ To make installation easiest. This helper script which should get all
 dependencies and download, build, and install Ryu.
 
 ```
-$ wget https://raw.githubusercontent.com/sdnds-tw/ryuInstallHelper/master/ryuInstallHelper.sh
-$ bash ryuInstallHelper.sh
+$ curl -sL https://raw.githubusercontent.com/sdnds-tw/ryuInstallHelper/master/ryuInstallHelper.sh | bash
 ```
+
 That's it !!
 
 Note: This script has only been tested on the most recent stable version of Ubuntu.
