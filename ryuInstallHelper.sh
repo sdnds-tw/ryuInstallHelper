@@ -17,7 +17,7 @@ sudo apt-get update
 echo "##############################################################################"
 echo "#                          RYU DEPENDENCY CHECK                              #"
 echo "##############################################################################"
-sudo apt-get install git python-pip build-essential python-dev libxml2-dev libxslt1-dev python-paramiko python-webob python-routes -y
+sudo apt-get install git python-pip build-essential python-dev libxml2-dev libxslt1-dev python-paramiko python-webob python-routes wget -y
 
 # Upgrade pip
 sudo pip install -U pip six oslo.config==3.0.0 eventlet msgpack-python
